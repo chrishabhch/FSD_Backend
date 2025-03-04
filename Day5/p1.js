@@ -1,6 +1,6 @@
 // npm init -y
 // npm i express 
-
+// npm start
 const express=require('express');
 
 const app = express();
