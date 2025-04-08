@@ -6,7 +6,7 @@ const View = () => {
         viewdata();
     },[])
     const viewdata = async ()=>{
-        const res=await axios.get('http://localhost:9000/users');
+        const res=await axios.get('https://fsd-backend-1-e2p4.onrender.com/users');
         console.log(res);
         setUsers(res.data);
     }
